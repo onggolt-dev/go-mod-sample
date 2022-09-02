@@ -2,6 +2,12 @@ package hello
 
 import "fmt"
 
-func SayHello(name string) string {
-	return fmt.Sprintf("Hello %s!", name)
+func SayHello(name, gender string) string {
+	var strGender string
+	if gender == "male" {
+		strGender = "Bro"
+	} else {
+		strGender = "Sis"
+	}
+	return fmt.Sprintf("Hello %s %s!", strGender, name)
 }
