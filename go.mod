@@ -1,3 +1,3 @@
-module github.com/onggolt-dev/learn-go-mod
+module github.com/onggolt-dev/go-mod-sample
 
 go 1.18
